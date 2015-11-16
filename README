@@ -1,0 +1,48 @@
+Darcs
+=====
+
+[Darcs](http://darcs.net) is a distributed version control system
+written in Haskell.
+
+Getting started
+===============
+
+Compiling
+---------
+
+Build instructions are available at <http://darcs.net/Binaries>.
+
+Using
+-----
+
+To clone a repository from HTTP and send patches by mail:
+
+    $ darcs clone --lazy http://darcs.net
+    $ (edit files)
+    $ darcs add (new files)
+    $ darcs record -m "my changes"
+    $ darcs send
+
+To clone from SSH and push patches:
+
+    $ darcs clone user@hub.darcs.net:user/repo
+    $ (edit files)
+    $ darcs add (new files)
+    $ darcs record -m "my changes"
+    $ darcs push
+
+To create a project and start working:
+
+    $ darcs init (project)
+    $ cd (project)
+    $ (add files)
+    $ darcs add (files)
+    $ darcs record -m "initial version"
+
+See <http://darcs.net/Using> for more information.
+
+Reporting bugs
+==============
+
+Please send bug reports to <bugs@darcs.net>.
+

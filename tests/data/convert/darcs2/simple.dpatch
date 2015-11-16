@@ -1,0 +1,20 @@
+1 patch for repository /tmp/tmp5746/temp/empty-darcs2:
+
+patch 62068c47f23550e3a32aaf652d1e14e53598ba98
+Author: tester
+Date:   Sat Oct 16 23:28:30 BST 2010
+  * wibble
+
+New patches:
+
+[wibble
+tester**20101016222830
+ Ignore-this: f155bc27211e0233c23b8c0a757b8071
+] addfile ./wibble
+hunk ./wibble 1
++wibble
+
+Context:
+
+Patch bundle hash:
+75ced55c52362a8b2ff171b48751d19000fe1790

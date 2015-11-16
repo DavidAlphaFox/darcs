@@ -1,0 +1,46 @@
+3 patches for repository /tmp/tmp5677/temp/empty-darcs2:
+
+patch 8b8ee8c8e9bae5fe01abfd8c991071091241aa1f
+Date:   Sat Oct 16 23:28:22 BST 2010
+Author: tester
+  * wibble
+
+patch 23373e39b77dbce4de67f7631221f2d873ae21df
+Author: tester
+Date:   Sat Oct 16 23:28:22 BST 2010
+  * A
+
+patch 0058ef88cdd3606a9fbcfa00fb8b7d494db77481
+Author: tester
+Date:   Sat Oct 16 23:28:22 BST 2010
+  * B
+
+New patches:
+
+[wibble
+tester**20101016222822
+ Ignore-this: 88662d08dd524d92ad4cca6df0d643e4
+] addfile ./wibble
+hunk ./wibble 1
++wibble
+[A
+tester**20101016222822
+ Ignore-this: 2d69de402438481946682efcad5e20cd
+] hunk ./wibble 2
+ wibble
++A
+[B
+tester**20101016222822
+ Ignore-this: 9c8daaedcb674c022ddbcef19752d694
+] conflictor [
+hunk ./wibble 2
++A
+]
+:
+hunk ./wibble 2
++B
+
+Context:
+
+Patch bundle hash:
+33bebb546403626fc8539d4709fbcdb99e47e94c

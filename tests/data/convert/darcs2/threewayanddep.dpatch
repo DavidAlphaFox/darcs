@@ -1,0 +1,79 @@
+5 patches for repository /tmp/tmp5530/temp/empty-darcs2:
+
+patch 349a0bab437265867f9af955d72127bac4cea1a6
+Author: tester
+Date:   Sat Oct 16 23:27:54 BST 2010
+  * wibble
+
+patch 650955997f5fac7fa2e14127a25ea5ac70f4dab0
+Author: tester
+Date:   Sat Oct 16 23:27:54 BST 2010
+  * A1
+
+patch 476d8520cfc9be9b44299e6f4753de6adca83bcf
+Author: tester
+Date:   Sat Oct 16 23:27:54 BST 2010
+  * A2
+
+patch 4d2a18f739f8f4c384b5653a5ad03d5e77724efe
+Author: tester
+Date:   Sat Oct 16 23:27:54 BST 2010
+  * B
+
+patch 81ba98134cf0d725e827318ca2753be4148568b7
+Author: tester
+Date:   Sat Oct 16 23:27:54 BST 2010
+  * C
+
+New patches:
+
+[wibble
+tester**20101016222754
+ Ignore-this: 355914edd0f88f0ea7c2ef60aec9c2a1
+] addfile ./wibble
+hunk ./wibble 1
++wibble
+[A1
+tester**20101016222754
+ Ignore-this: 54df34ebd488b772c37c3d43a38b0bfa
+] hunk ./wibble 2
+ wibble
++A1
+[A2
+tester**20101016222754
+ Ignore-this: 4d1b08c7274743e7d0d2f210518d5a19
+] hunk ./wibble 3
+ wibble
+ A1
++A2
+[B
+tester**20101016222754
+ Ignore-this: 9ba51da6bb1506afa2104326cd5df54b
+] conflictor [
+hunk ./wibble 2
++A1
++A2
+]
+:
+hunk ./wibble 2
++B
+[C
+tester**20101016222754
+ Ignore-this: 295e8a851b7a936b3d08b0ce7eaaf2ac
+] conflictor {{
+:
+hunk ./wibble 2
++A1
++A2
+:
+hunk ./wibble 2
++B
+}} []
+:
+hunk ./wibble 2
++C
+
+Context:
+
+Patch bundle hash:
+f9974a2fdbdea580b1be0eaba951e6285f9bfb5d
