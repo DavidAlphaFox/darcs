@@ -74,7 +74,7 @@ import Darcs.Util.Path ( AbsolutePath, getCurrentDirectory, toPath, ioAbsoluteOr
 import Darcs.Util.Printer ( text )
 import Darcs.Util.Progress ( setProgressMode )
 import Darcs.Util.Text ( chompTrailingNewline )
-
+-- 执行相应的命令
 runTheCommand :: [CommandControl] -> String -> [String] -> IO ()
 runTheCommand commandControlList cmd args =
   either fail rtc $ disambiguateCommands commandControlList cmd args
